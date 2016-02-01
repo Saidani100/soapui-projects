@@ -5,7 +5,7 @@ The soapui project that is present in this directory address the following.
 
 _Many times, the same question from different new users of `SoapUI` is noticed asking as below:_
 
-"There is a test case with multiple steps and each step represents different operation either from the same service or from different service. The common problem is that how to retrieve certain value from first step's response and pass that value to input to other test step of same test case". 
+There is a test case with _multiple steps_ and each step represents different operation either from the same service or from different service. The common problem is that **how to retrieve certain value from first step's response and pass that value to input to other test step** of same test case. Of course, it is not limited to either same test case or test suite as such though. 
 
 ## How to use this soapUI project:
 
