@@ -32,6 +32,9 @@ This service contains below two _operations_:
 2. isNumberEven => This has an input parameter, pass any Integer and user will recieve a response saying whether that is an even or an odd numer.
 </pre>
 ### Test Case : _CheckIfNumberIsEvenOrOdd_
+
+>Note that this test case sample is using **Property Transfer** approach.
+
 The test case contains the following 3 steps.
 <pre>
 1. GenerateNumber of soap request test type, this is using `generateNumber` operation.
