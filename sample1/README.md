@@ -20,7 +20,7 @@ Import this _soapui project_ into your SoapUI software. This will domonstrate th
 <pre>
 1. Start `checkNumberSOAP MockService` using right click.
 2. Open the `TestSuite 1`, then `CheckIfNumberIsEvenOrOdd` test case.
-3. Just, run the project and you should find it execute successfully.
+3. Just, run the test case and you should find it execute successfully.
 </pre>
 
 ## Into the details
