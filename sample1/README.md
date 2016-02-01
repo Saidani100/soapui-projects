@@ -28,8 +28,8 @@ Import this _soapui project_ into your SoapUI software. This will domonstrate th
 ### Service : _checkNumberSOAP_
 This service contains below two _operations_:
 <pre>
-1. generateNumber => This does not require any input parameters. It will just return an Integers in the response.
-2. isNumberEven => This has an input parameter, pass any Integer and user will recieve a response saying whether that is an even or an odd numer.
+1. generateNumber - This does not require any input parameters. It will just return an Integers in the response.
+2. isNumberEven - This has an input parameter, pass any Integer and user will recieve a response saying whether<br>                 that is an even or an odd numer.
 </pre>
 ### Test Case : _CheckIfNumberIsEvenOrOdd_
 
