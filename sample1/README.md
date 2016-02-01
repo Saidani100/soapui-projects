@@ -40,7 +40,7 @@ The test case contains the following 3 steps.
 </pre>
 **Brief explanation on how the above is working**
 If you notice, the first step does not have any inputs. Just it is getting a number from its service. 
-Property Transfer step is retrieving the required value from its previous step i.e., `GenerateNumber` step and storing it as test case custom property called `NUMBER`
+**Property Transfer** step is retrieving the required value from its previous step i.e., `GenerateNumber` step and storing it as test case custom property called `NUMBER`
 And 3rd step, is using this `NUMBER` as input and finally calling its service to check if the number is `odd or even`.
 Also there are `assertions` defined to test steps if the ouput is desired or not.
 
