@@ -21,5 +21,13 @@ _You would see the following in the project:_
 2. Open the `TestSuite 1`, then `CheckIfNumberIsEvenOrOdd` test case.
 3. Just, run the project and you should find it execute successfully.
 
-In to the details:
-TODO
+### In to the details of _Test Case_:
+The test case contains the following 3 steps.
+1. GenerateNumber of soap request test type, this is using `generateNumber` operation.
+2. Property Transfer
+3. IsNumberEven of soap request test type, this is using `isNumberEven` operation.
+
+If you notice, the first step does not have any inputs. Just it is getting a number from its service. 
+Property Transfer step is retrieving the required value from its previous step i.e., `GenerateNumber` step and storing it as test case custom property called `NUMBER`
+And 3rd step, is using this `NUMBER` as input and finally calling its service to check if the number is `odd or even`.
+Also there are `assertions` defined to test if the ouput is desired or not.
