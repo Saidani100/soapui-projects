@@ -45,3 +45,5 @@ And 3rd step, is using this `NUMBER` as input and finally calling its service to
 Also there are `assertions` defined to test steps if the ouput is desired or not.
 
 I believe that this example is handy for to start with and improve upon it and apply to your projects. Good luck.
+
+>Note: You may need to `change the endpoint` for the test steps (SOAP Request Type) **from localhost to <your hostname>** in case if it did not work when you start the mock service.
