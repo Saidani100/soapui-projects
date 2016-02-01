@@ -7,5 +7,5 @@ Here in this repo, compiling such projects which can be used by any one in gener
 
 Please refer the readme of respective directory for details.
 <pre>
-1. [sample1](https://github.com/nmrao/soapui-projects/tree/master/sample1) - pass the data from one step to another step using SOAP requests.
+1. [sample1](https://github.com/nmrao/soapui-projects/tree/master/sample1) - pass the data from the _output_ of one step as _input_ to another step, uses _SOAP request type_ in the sample.
 
