@@ -46,6 +46,17 @@ If you notice, the first step does not have any inputs. Just it is getting a num
 **Property Transfer** step is retrieving the required value from its previous step i.e., `GenerateNumber` step and storing it as test case level custom property called `NUMBER`.
 `NUMBER` property is being used in 3rd step's request as input and finally calling its service to check if the number is `odd or even`.<br>Also there are `assertions` defined to test steps if the ouput is desired or not.
 
+### Test Case : _CheckIfNumberIsEvenOrOdd_Using_ScriptAssertion_
+
+>Note that this test case sample is using **Script Assertion** approach to check if the previous step response has the value and store it in test case custom property. Have a look at assertion call `Store the number if valid response` for the first step. Having said that, it does not need any additional steps like `Property Transfer` used in 1st test case.
+
+The test case contains the following 2 steps.
+<pre>
+1. GenerateNumber of soap request test type, this is using `generateNumber` operation.
+2. IsNumberEven of soap request test type, this is using `isNumberEven` operation.
+</pre>
+
+
 I believe that this example is handy for to start with and improve upon it and apply to your projects. Good luck.
 
 >Note: You may need to make the `change in the endpoint` for the test steps (SOAP Request Type) **replacing localhost with \<your hostname\> in case if it did not work when you start the mock service**.
